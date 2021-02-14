@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -96,7 +97,15 @@
     $r = mysqli_query($conn, $sql) or die(mysqli_error($conn));
 
     if (mysqli_num_rows($r) > 0) {
+      $rw = mysqli_fetch_array($r, MYSQLI_ASSOC);
+      $_SESSION["user"] = $rw["login"];
+      $_SESSION["user_id"] = $rw["id"];
 
+    ?>
+    <script type="text/javascript">
+      window.location.href="index.php";
+    </script>
+    <?php
     } else {
       echo "<div class='alert alert-danger'><h2>Login yoki Parol Xato</h2></div>";
     }
