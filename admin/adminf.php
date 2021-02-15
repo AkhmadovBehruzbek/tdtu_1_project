@@ -15,6 +15,9 @@
                 foreach ($ustun as $u) {
                     echo "<td>" .$row[$u]. "</td>";
                 }
+                echo "<td><a href='?m={$menu}&edit=".$row['id']."' class='btn btn-info'><i class='fa fa-pencil'></i></a></td>";
+                echo "<td><a href='?m={$menu}&delete=".$row['id']."' class='btn btn-danger'><i class='fa fa-remove'></i></a></td>";
+
                 echo "</tr>";
                 $i++;
                 echo "</table>";
