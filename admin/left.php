@@ -1,18 +1,18 @@
 <!-- sidebar menu -->
 <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
               <div class="menu_section">
-                <h3>General</h3>
+                <h3>Asosiy Menyu</h3>
                 <ul class="nav side-menu">
                  
                   
                   
                   
-                  <li><a><i class="fa fa-bar-chart-o"></i> Data Presentation <span class="fa fa-chevron-down"></span></a>
+                  <li><a><i class="fa fa-bar-chart-o"></i> Bo'limlar<span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="chartjs.html">Chart JS</a></li>
-                      <li><a href="chartjs2.html">Chart JS2</a></li>
-                      <li><a href="morisjs.html">Moris JS</a></li>
-                      <li><a href="echarts.html">ECharts</a></li>
+                      <li><a href="?m=lr">Loyihalar ro'yxati</a></li>
+                      <li><a href="?m=bq">Loyiha qo'shish</a></li>
+                      <li><a href="morisjs.html">Yangiliklar</a></li>
+                      <li><a href="echarts.html">Yangilik qo'shish</a></li>
                       <li><a href="other_charts.html">Other Charts</a></li>
                     </ul>
                   </li>
